@@ -9,3 +9,9 @@ boton.addEventListener("click", () => {
   nueva.textContent = `Tarea numero ${contador}`;
   tareas.appendChild(nueva);
 });
+
+tareas.addEventListener("click", (evento) => {
+  if (evento.target.tagName === "LI") {
+    evento.target.classList.toggle("completada");
+  }
+});
