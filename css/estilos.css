@@ -43,3 +43,13 @@ footer {
   font-size: 0.85rem;
   color: #6b7280;
 }
+
+li.completada {
+  text-decoration: line-through;
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+#tareas li {
+  cursor: pointer;
+}
