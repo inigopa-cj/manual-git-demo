@@ -1,0 +1,14 @@
+# Archivos que Git debe ignorar
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Dependencias y salidas
+node_modules/
+dist/
+*.log
